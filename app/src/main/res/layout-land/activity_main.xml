@@ -18,11 +18,12 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center"
+            android:layout_gravity="bottom|right"
             android:layout_marginBottom="18sp"
             android:background="#FFFFFF"
             android:onClick="onClick"
             android:text="Далее"
+            android:layout_marginRight="18sp"
             android:textColor="@color/colorButtonText" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
