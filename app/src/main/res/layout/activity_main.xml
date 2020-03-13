@@ -20,9 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="18sp"
-            android:background="#FFFFFF"
             android:onClick="onClick"
             android:text="Далее"
-            android:textColor="@color/colorButtonText" />
+            />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,7 @@ import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.fragment3_fragment.*
@@ -26,7 +27,10 @@ class fragment3 : Fragment() {
     }
     private fun onCheck(group: RadioGroup, checkedId: Int){
         when(checkedId){
-            R.id.Night->Toast.makeText(group.context, "night", Toast.LENGTH_SHORT).show()
+            R.id.Light->AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            R.id.Night->AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
         }
     }
+
+
 }

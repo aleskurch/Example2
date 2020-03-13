@@ -13,6 +13,7 @@ class fragment2 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         return inflater.inflate(R.layout.fragment2_fragment, container, false)
     }
 }

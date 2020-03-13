@@ -4,7 +4,6 @@
     android:id="@+id/fragment4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00BCD4"
     tools:context=".fragment4">
 
     <RadioGroup
@@ -12,14 +11,20 @@
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
-
+        <TextView
+            android:id="@+id/descr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDarkLight"
+            android:text="Текст для хуеты"/>
         <RadioButton
             android:id="@+id/Light"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:gravity="center"
             android:text="Light Theme"
-            android:textSize="27.5sp" />
+            android:textSize="27.5sp" >
+        </RadioButton>
 
         <RadioButton
             android:id="@+id/Night"
@@ -30,4 +35,5 @@
             android:textSize="27.5sp" />
 
     </RadioGroup>
+
 </RelativeLayout>
