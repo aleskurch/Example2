@@ -5,14 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:longClickable="true"
-    tools:context=".LauncherActivity">
+    tools:context=".LauncherActivity"
+    android:parentActivityName="com.example.test.Profile"
+    android:name="android.support.PARENT_ACTIVITY">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_centerHorizontal="true"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorPrimaryLight"
         android:longClickable="true"
         />
 </RelativeLayout>

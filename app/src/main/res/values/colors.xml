@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#673AB7</color>
-    <color name="colorPrimaryDarkLight">#FF3A2B</color>
-    <color name="colorPrimaryDarkNight">#FFEB3B</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="colorAccentLight">#FF3A2B</color>
-    <color name="colorAccentNight">#FFEB3B</color>
+    <color name="colorPrimaryLight">#FFECB3</color>
+    <color name="colorPrimaryNight">#FFAB00</color>
+
+    <color name="colorAccentLight">#42A5F5</color>
+    <color name="colorAccentNight">#3949AB</color>
+
+    <color name="radioDay">#72CECECE</color>
+    <color name="radioNight">#C45D5D5D</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
 </resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dayland"
+    android:id="@+id/fragment3"
+    tools:context=".fragment3" >
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Light"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="9dp"
+            android:text="@string/lightTheme"
+            android:textSize="27.5sp" />
+
+        <RadioButton
+            android:id="@+id/Night"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:gravity="center"
+            android:text="@string/nightTheme"
+            android:textSize="27.5sp" />
+
+    </RadioGroup>
+
+</RelativeLayout>

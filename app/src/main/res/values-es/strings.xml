@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="appName">ABSTRA</string>
+    <string name="welcom">Welcome to ABSTRA</string>
+    <string name="whatIsIt"> This is your own way to be unique with design which pushes the boundaries </string>
+    <string name="nextButton">next</string>
+    <string name="lightTheme">Light theme</string>
+    <string name="nightTheme">Night theme</string>
+    <string name="maketSmall">Standard layout</string>
+    <string name="maketBig">Tight layout</string>
+    <string name="maketSmallSub">
+        Portrait: 4 icons in a row\nLand: 6 icons in a row
+    </string>
+    <string name="maketBigSub">
+        Portrait: 5 icons in a row\nLand: 7 icons in a row
+    </string>
+</resources>

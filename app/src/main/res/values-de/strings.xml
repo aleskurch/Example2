@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="appName">ABSTRA</string>
+    <string name="welcom">Добро пожаловать в ABSTRA</string>
+    <string name="whatIsIt">Это ваш способ быть уникальным с дизайном, который раздвигает границы</string>
+    <string name="nextButton">Далее</string>
+    <string name="lightTheme">Светлая тема</string>
+    <string name="nightTheme">Ночная тема</string>
+    <string name="maketSmall">Стандартный макет</string>
+    <string name="maketBig">Полный макет</string>
+    <string name="maketSmallSub">
+        Портретный: 4 иконоки в ряд\nЛандшафтный: 6 иконок в ряд
+    </string>
+    <string name="maketBigSub">
+        Портретный: 5 иконок в ряд\nЛандшафтный: 7 иконок в ряд
+    </string>
+</resources>
