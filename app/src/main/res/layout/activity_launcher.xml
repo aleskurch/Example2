@@ -7,7 +7,8 @@
     android:longClickable="true"
     tools:context=".LauncherActivity"
     android:parentActivityName="com.example.test.Profile"
-    android:name="android.support.PARENT_ACTIVITY">
+    android:name="android.support.PARENT_ACTIVITY"
+    app:menu="@menu/activity_menu_drawer">
 
     <TextView
         android:id="@+id/textView2"
